@@ -21,3 +21,4 @@ resource "google_project_iam_member" "vertex_user" {
   role    = "roles/aiplatform.user"
   member  = "serviceAccount:${google_service_account.batch.email}"
 }
+

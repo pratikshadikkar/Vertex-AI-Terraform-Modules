@@ -20,3 +20,8 @@ variable "embedding_dimensions" {
 description = "Embedding vector size"
 type = number
 }
+
+variable "vector_index_name" {
+  type    = string
+  default = "doc-embeddings-index-tf"
+}

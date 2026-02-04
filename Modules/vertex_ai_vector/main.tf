@@ -22,6 +22,7 @@ resource "google_vertex_ai_index" "vector_index" {
   }
 
   index_update_method = "BATCH_UPDATE"
+}
 
 #   resource "google_vertex_ai_index_endpoint" "vector_endpoint" {
 #   project      = var.project_id

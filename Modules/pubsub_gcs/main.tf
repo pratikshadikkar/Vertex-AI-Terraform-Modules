@@ -25,4 +25,7 @@ bucket = var.raw_bucket
 topic = google_pubsub_topic.ingest.id
 payload_format = "JSON_API_V1"
 event_types = ["OBJECT_FINALIZE"]
+  depends_on = [
+    google_pubsub_topic_iam_member.gcs_publisher
+  ]
 }
