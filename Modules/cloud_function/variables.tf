@@ -6,22 +6,22 @@ variable "region" {
   type = string
 }
 
-variable "raw_bucket_base" {
+variable "function_name" {
   type = string
 }
 
-variable "out_bucket_base" {
+variable "raw_bucket" {
   type = string
 }
 
-variable "vector_index_name_base" {
+variable "out_bucket" {
   type = string
 }
 
-variable "vector_endpoint_name_base" {
+variable "pubsub_topic" {
   type = string
 }
 
-variable "deployed_index_id_base" {
+variable "service_account_email" {
   type = string
 }

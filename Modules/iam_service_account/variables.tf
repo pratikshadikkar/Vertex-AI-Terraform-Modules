@@ -1,4 +1,4 @@
-variable "project_id" {
-description = "GCP Project ID"
-type = string
-}
+variable "project" {}
+variable "service_account_id" {}
+variable "pubsub_topic_name" {}
+variable "raw_bucket_name" {}

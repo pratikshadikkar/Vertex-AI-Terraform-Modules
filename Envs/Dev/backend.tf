@@ -1,6 +1,6 @@
-# terraform {
-# backend "gcs" {
-# bucket = "tf-state-dev"
-# prefix = "doc-ingest-platform"
-# }
-# }
+terraform {
+  backend "gcs" {
+    bucket = "tf-state-doc-ingest"
+    prefix = "embedding-search"
+  }
+}
